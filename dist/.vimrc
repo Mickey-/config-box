@@ -64,8 +64,9 @@ Bundle 'jQuery'
 Bundle 'ap/vim-css-color'
 Bundle 'DoxygenToolkit.vim'
 Bundle 'mattn/emmet-vim'
-Bundle 'vim-less'
+Bundle 'groenewege/vim-less'
 Bundle 'tern_for_vim'
+Bundle 'editorconfig-vim'
 
 filetype plugin indent on     " required!
 "---------------powerline---------------
@@ -75,3 +76,5 @@ set laststatus=2
 au BufRead,BufNewFile *.js set syntax=jquery
 "---------------DoxygenToolkit---------------
 let g:DoxygenToolkit_authorName="banbian, zangtao.zt@alibaba-inc.com"
+"---------------vim-css-color---------------
+let g:cssColorVimDoNotMessMyUpdatetime = 1

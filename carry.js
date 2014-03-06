@@ -1,13 +1,13 @@
 var fs = require('fs');
 
-var carryList = fs.createWriteStream('./carryList.js'),
+var carryList = fs.createReadStream('./carryList.js'),
     json = ''
 
 carryList.on('data', function(chunk){
     json += chunk;
 })
 carryList.on('close', function(chunk){
-    carryList.end();
+    //carryList.end();
     json = JSON.parse(json);
     console.log(json);
 })
