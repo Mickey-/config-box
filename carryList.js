@@ -1,5 +1,0 @@
-{
-    "vimrc": "~/.vimrc"
-    ,"zshrc": "~/.zshrc"
-    ,"gitconfig": "~/.gitconfig"
-}

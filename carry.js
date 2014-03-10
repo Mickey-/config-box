@@ -1,15 +1,11 @@
-var fs = require('fs');
+var fs = require('fs'),
+    list = require('./carryList.json'),
+    k;
 
-var carryList = fs.createReadStream('./carryList.js'),
-    json = ''
+for (k in list) {
+    var actualPath = list[k].replace(/^~/, process.env.HOME);
+    fs.createReadStream(actualPath).pipe(fs.createWriteStream('./dist/' + k));
+}
 
-carryList.on('data', function(chunk){
-    json += chunk;
-})
-carryList.on('close', function(chunk){
-    //carryList.end();
-    json = JSON.parse(json);
-    console.log(json);
-})
-console.log('carry configs!');
+console.log('carried configs successfully!');
 
