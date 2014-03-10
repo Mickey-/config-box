@@ -1,0 +1,13 @@
+[user]
+	name = 半边
+	email = zangtao.zt@alibaba-inc.com
+[pull]
+    default = current
+[push]
+    default = current
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
