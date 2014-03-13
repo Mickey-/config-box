@@ -1,22 +1,22 @@
 "自定义变量
-:let tab_width=2
-":let tab_width=4
+":let tab_width=2
+:let tab_width=4
 
 set backspace=2
-set nocompatible
-"set nobackup
-"set nowritebackup
-set ignorecase
-"set makeprg=bjam
-set nocp
-set expandtab "自动将tab转为空格
 set ai "开启自动缩进
+set expandtab "自动将tab转为空格
 :execute 'set tabstop='.tab_width
 :execute 'set shiftwidth='.tab_width
 :execute 'set softtabstop='.tab_width
 "set tabstop=tab_width "一个TAB字符占多少个空格的位置
 "set shiftwidth=tab_width "使用每层缩进的空格数
 "set softtabstop=tab_width "方便在开启了et后使用退格（backspace）键，每次退格将删除X个空格
+
+"set nobackup
+"set nowritebackup
+set ignorecase
+"set makeprg=bjam
+set nocp
 
 set nu
 set hls "打开高亮
@@ -67,6 +67,8 @@ Bundle 'mattn/emmet-vim'
 Bundle 'groenewege/vim-less'
 Bundle 'tern_for_vim'
 Bundle 'editorconfig-vim'
+Bundle 'Yggdroot/indentLine'
+Bundle 'kchmck/vim-coffee-script'
 
 filetype plugin indent on     " required!
 "---------------powerline---------------
@@ -78,3 +80,5 @@ au BufRead,BufNewFile *.js set syntax=jquery
 let g:DoxygenToolkit_authorName="banbian, zangtao.zt@alibaba-inc.com"
 "---------------vim-css-color---------------
 let g:cssColorVimDoNotMessMyUpdatetime = 1
+"---------------indentline---------------
+let g:indentLine_color_term = 239
