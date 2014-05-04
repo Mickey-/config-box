@@ -1,6 +1,6 @@
 "自定义变量
-":let tab_width=2
-:let tab_width=4
+:let tab_width=2
+":let tab_width=4
 
 set backspace=2
 set ai "开启自动缩进

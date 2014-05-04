@@ -4,6 +4,7 @@
 # localhost is used to configure the loopback interface
 # when the system is booting.  Do not change this entry.
 ##
+185.31.16.184   github.global.ssl.fastly.net
 127.0.0.1	localhost
 255.255.255.255	broadcasthost
 ::1             localhost 
@@ -23,9 +24,19 @@ fe80::1%lo0	localhost
 #供销
 #42.120.80.154 goods.gongxiao.tmall.com
 
-#10.125.56.177 goods.gongxiao.daily.tmall.net
+#10.125.56.240 goods.gongxiao.daily.tmall.net
 10.125.9.94 gongxiao.admin.taobao.org
 #项目环境
-10.125.58.11  gongxiao.daily.tmall.net  
+#10.125.58.11  gongxiao.daily.tmall.net  
+#10.125.196.58  qudao.gongxiao.daily.tmall.net 
+# daily
+#10.125.175.145  gongxiao.daily.tmall.net
+#念苦机器
+#10.73.2.253  qudao.gongxiao.daily.tmall.net 
+#预发
+172.21.99.215  qudao.gongxiao.tmall.com
 
-10.73.2.253  qudao.gongxiao.daily.tmall.net 
+#微淘后台 daily
+#10.232.17.87  we.daily.taobao.net 
+#微淘后台 项目环境
+#10.232.18.21   we.daily.taobao.net 

@@ -11,6 +11,8 @@ ZSH_THEME="robbyrussell"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="/usr/local/bin/vim"
+alias gw="grunt watch"
+alias ns="sudo nginx"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
