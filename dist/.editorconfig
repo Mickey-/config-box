@@ -6,13 +6,17 @@ charset = utf-8
 indent_style = space
 indent_size = 2
 end_of_line = lf
+# 也避免一些无意义的diff
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.md]
+[*.{html,htm,vm,tpl}]
+indent_size = 4
+insert_final_newline = false
+
+[**.md]
+# 考虑markdown的特殊语法
 trim_trailing_whitespace = false
 insert_final_newline = false
 indent_size = 4
 
-[htmlparser.js]
-insert_final_newline = false
