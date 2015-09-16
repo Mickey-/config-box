@@ -8,6 +8,13 @@ config-box
 
 ## Usage
 
+### 常见配置
+
 在配置文件里配置你需要同步的软件配置文件，如vim、bash、zsh、host等
 
 执行`node carry.js`即可
+
+### 额外的
+
+也可以直接将一些文件放入dist目录
+
