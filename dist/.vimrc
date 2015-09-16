@@ -78,7 +78,7 @@ set laststatus=2
 "---------------jQuery---------------
 au BufRead,BufNewFile *.js set syntax=jquery
 "---------------DoxygenToolkit---------------
-let g:DoxygenToolkit_authorName="banbian, zangtao.zt@alibaba-inc.com"
+let g:DoxygenToolkit_authorName="banbian, gujian.qitan@alibaba-inc.com"
 "---------------vim-css-color---------------
 let g:cssColorVimDoNotMessMyUpdatetime = 1
 "---------------indentline---------------
