@@ -1,8 +1,7 @@
 "自定义变量
-:let tab_width=2
-":let tab_width=4
+":let tab_width=2
+:let tab_width=4
 
-set backspace=2
 set ai "开启自动缩进
 set expandtab "自动将tab转为空格
 :execute 'set tabstop='.tab_width
@@ -12,6 +11,7 @@ set expandtab "自动将tab转为空格
 "set shiftwidth=tab_width "使用每层缩进的空格数
 "set softtabstop=tab_width "方便在开启了et后使用退格（backspace）键，每次退格将删除X个空格
 
+set backspace=2
 "set nobackup
 "set nowritebackup
 set ignorecase
@@ -39,6 +39,7 @@ inoremap < <><ESC>i
 inoremap " ""<ESC>i
 inoremap ' ''<ESC>i
 
+"下面三行很重要
 set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8,gb18030
@@ -65,10 +66,10 @@ Bundle 'ap/vim-css-color'
 Bundle 'DoxygenToolkit.vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'groenewege/vim-less'
-Bundle 'tern_for_vim'
 Bundle 'editorconfig-vim'
 Bundle 'Yggdroot/indentLine'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'scrooloose/nerdtree'
 
 filetype plugin indent on     " required!
 "---------------powerline---------------

@@ -7,13 +7,6 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vi="/usr/local/bin/vim"
-alias gw="grunt watch"
-alias ns="sudo nginx"
-
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -69,4 +62,15 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mickey/bin:/Use
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vi="/usr/local/bin/vim"
+alias gw="grunt watch"
+alias g="grunt"
+alias ns="sudo nginx"
+alias gs="git status"
+alias gc="git commit"
 
