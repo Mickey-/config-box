@@ -5,7 +5,7 @@ root = true
 charset = utf-8
 indent_style = space
 # 调研过团队大部分同学的代码，2/4缩进的都有。这点的统一肯定部分同学得适应。建议统一为2空格缩进,也是趋势:angular、jquery、react、yeoman、grunt、gulp、Babel、Bootstrap等等都已升级到2空格缩进
-indent_size = 2
+indent_size = 4
 end_of_line = lf
 # 避免一些无意义的diff
 insert_final_newline = true
